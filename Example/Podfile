@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KitLoginModule_Example' do
+  pod 'KitLoginModule', :path => '../'
+
+  target 'KitLoginModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
